@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: white;
+    color: black;
+}
+
+body {
+    padding: 10px;
+    background-color: none;
+    width: 50%;
+    margin: 0px auto;
+
+}
+
+div.header {
+    background-image:url("images.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 240px;
+    
+    }
+
+div.header > h1 {
+    background: none;
+}
+
+div.header > p{
+    background: none;
+
+}
+
+div.form{
+    padding: 10px;
+    background: none;
+    margin: 10px auto;
+    width: 95%;
+    
+}
+form{
+    padding: 10px;
+    background: none;
+    width: 98%;
+}
+div.input {
+    background: none;
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+}
+div.input >label {
+    background: none;
+    font-weight: 700;
+    margin: 5px 0px;
+
+
+}
+div.input > input {
+    background: none;
+    padding: 10px;
+    width: 96%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgb(51, 34, 51);
+
+
+}
+div.submit {
+    background: none;
+    text-align: center;
+    margin: 10px auto;
+}
+
+div.submit > button{
+    background: rgb(92, 55, 223);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 2em;
+    font-weight: 600;
+    border-radius: 10px;
+}
+div.footer {
+    background: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: 1em;
+}
+div.footer > a {
+    background: none;
+    font-size: 0.7em;
+    text-decoration: none;
+    color: purple;
+}
+div.footer > p {
+    background: none;
+    font-size: 0.7em;
+    color: purple;
+    }
